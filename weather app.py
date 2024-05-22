@@ -4,7 +4,7 @@ import requests
 api_key = 'b73f861c9b47fe465e680a5d330e01eb'
 
 # City for which you want to fetch weather data
-city = 'Karimnagar'
+city = 'junction'
 
 # Base URL for the OpenWeatherMap API
 base_url = f'http://api.openweathermap.org/data/2.5/weather?q={city}&appid={api_key}&units=metric'
